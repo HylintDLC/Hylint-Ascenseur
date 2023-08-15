@@ -14,11 +14,7 @@ author 'hylint'
 version '1.0.2'
 
 client_scripts {
-	'client/*.lua',
-}
-
-server_scripts {
-	'server/*.lua'
+	'client.lua'
 }
 
 shared_scripts {
