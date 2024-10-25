@@ -67,7 +67,7 @@ end)
 AddEventHandler('hylint_ascenseur:noAccess', function()
     lib.notify({
         title = 'Pas d\'accès',
-        description = 'Vous n'avez pas accès à cet étage',
+        description = 'Vous n\'avez pas accès à cet étage',
         type = 'error'
     })
 end)
